@@ -127,3 +127,7 @@ INSERT INTO staff values ('S003','Aggie','S001' );
 INSERT INTO staff values ('S004','Aggie','S001' );
 INSERT INTO staff values ('S005','Aggie','S002' );
 
+
+CREATE VIEW Personnel_Security_VW
+AS
+SELECT P.Personnel_Name, T.TypeOS_Name
